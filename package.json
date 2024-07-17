@@ -1,0 +1,14 @@
+{
+  "name": "event-source-api-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:server": "node server/index.js",
+    "start:front": "open frontend/index.html"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
